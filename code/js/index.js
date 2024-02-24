@@ -1,4 +1,4 @@
-const package_location = ["/package/messages", "/package2/messages"];
+const package_location = ["/package/messages"]//, "/package2/messages"];
 let entry_count = 25;
 
 // no touchy

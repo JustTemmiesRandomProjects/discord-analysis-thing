@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>IT Presenasjon om Discord Dataset</title>
+    </head>
+    <body hidden="false">
+        <!-- ----- HTML elements ----- -->
+        
+        <!-- dropdown menu -->
+        <select name="sorting-method" id="sorting-method" style="position: absolute; margin-left: 90px;"> 
+            <option value="words">Sort by word usage</option>
+            <option value="chars">Sort by character usage</option>
+            <option value="time">Sort by time</option>
+        </select>
+
+        <input type="number" value="25" id="entry-count-input" style="position: absolute; margin-left: 270px; max-width: 80px;"></input>
+
+        <!-- the chart -->
+        <div style="width: 99vw; height: 98vh">
+            <canvas id="myChart"></canvas>
+        </div>
+
+
+        <!-- ----- javascript ----- -->
+
+        <!-- chart js import  -->
+        <script src="chart.js"></script>
+
+        <!-- custom scripts -->
+        <script src="sortingMethods.js"></script>
+        <script src="index.js"></script>
+    </body>
+</html>

@@ -1,0 +1,2 @@
+https://github.com/matthewreagan/WebstersEnglishDictionary/blob/master/dictionary.json
+https://freedict.org/downloads/
